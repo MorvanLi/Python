@@ -1,6 +1,7 @@
 <center>
      <h1>Group Normalization解析</h1>
  </center>
+
 ## 1、Layer Normalization
 
 论文名称：Group Normalization
@@ -12,6 +13,10 @@
 
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20210618093319313.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3NTQxMDk3,size_16,color_FFFFFF,t_70"></div>
+
+
+
+
 
 
 
