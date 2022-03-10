@@ -24,7 +24,7 @@ def main():
                                    transforms.ToTensor(),
                                    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])}
 
-    data_root = os.path.abspath(os.path.join(os.getcwd(), "../datasets/"))  # get data root path
+    data_root = '/home/synsense-1/Downloads'
     image_path = os.path.join(data_root, "flower_data")  # flower data set path
     assert os.path.exists(image_path), "{} path does not exist.".format(image_path)
     train_dataset = datasets.ImageFolder(root=os.path.join(image_path, "train"),
@@ -72,9 +72,9 @@ def main():
     net.to(device)
     loss_function = nn.CrossEntropyLoss()
     # pata = list(net.parameters())
-    optimizer = optim.Adam(net.parameters(), lr=0.0002)
+    optimizer = optim.Adam(net.parameters(), lr=0.0001)
 
-    epochs = 20
+    epochs = 100
     save_path = './AlexNet.pth'
     best_acc = 0.0
     train_steps = len(train_loader)
