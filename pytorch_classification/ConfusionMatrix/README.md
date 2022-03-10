@@ -8,11 +8,11 @@
 
 
 
- $$ Precision=\frac{TP}{TP + FP} $$
+ $Precision=\frac{TP}{TP + FP} $
 
-$$Recall=\frac{TP}{TP + FN} $$
+$Recall=\frac{TP}{TP + FN} $
 
-$$Specificity=\frac{TN}{FP + TN} $$
+$Specificity=\frac{TN}{FP + TN} $
 
 
 
