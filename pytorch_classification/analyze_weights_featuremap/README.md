@@ -1,12 +1,9 @@
-## File Structure：
+## analyze_weights_featuremap：
 
 
 
-> model.py : AlexNet Architeture
->
-> train.py : Training Script
->
-> predict.py :  Prediction Script
->
-> class_indices.json: 
+**By observing the feature maps of the first five convolutions of the AlexNet and VGG networks, it is obvious that the VGG network performs better.**
 
+
+
+![analyze_weights_featuremap](../../images/analyze_weights_featuremap_awf.png)
