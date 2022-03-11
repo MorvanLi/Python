@@ -35,24 +35,29 @@
 ## **2 、使用pytorch进行试验**
 
 ​		刚刚说了在我们**训练过程中**，均值$\mu _{\beta  } $和方差$\sigma _{\beta }^{2} $是通过计算当前批次数据得到的记为为$\mu _{now}$和$\sigma _{now }^{2} $，而我们的**验证以及预测过程中**所使用的均值方差是一个统计量记为$\mu _{statistic}$和$\sigma _{statistic}^{2}$。$\mu _{statistic}$和$\sigma _{statistic}^{2}$的具体更新策略如下，其中$momentum$默认取0.1：
+$$
+\mu _{statistic+1}=(1-momentum) \times  \mu _{statistic} + momentum \times  \mu _{now}
+$$
 
-$$\mu _{statistic+1}=(1-momentum) \times  \mu _{statistic} + momentum \times  \mu _{now}$$
-
-$$\sigma _{statistic+1}^{2}=(1-momentum)\times \sigma _{statistic}^{2} + momentum \times \sigma _{now}^{2}$$
+$$
+\sigma _{statistic+1}^{2}=(1-momentum)\times \sigma _{statistic}^{2} + momentum \times \sigma _{now}^{2}
+$$
 
 
 
 ​		**这里要注意一下**，在pytorch中对当前批次feature进行bn处理时所使用的$\sigma _{now}^{2}   $是**总体标准差**，计算公式如下：
 
-​		$$\sigma _{now}^{2} = \frac{1}{m}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2}$$
-
+$$
+\sigma_{n o w}^{2}=\frac{1}{m} \sum_{i=1}^{m}\left(x_{i}-\mu_{n o w}\right)^{2}
+$$
 
 
 ​		在更新统计量$\sigma _{statistic}^{2}$时采用的$\sigma _{now}^{2}$是**样本标准差**，计算公式如下：
 
+$$
+\sigma_{n o w}^{2}=\frac{1}{m-1} \sum_{i=1}^{m}\left(x_{i}-\mu_{n o w}\right)^{2}
+$$
 
-
-​		$$\sigma _{now}^{2} = \frac{1}{m-1}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2}$$
 
 
 
