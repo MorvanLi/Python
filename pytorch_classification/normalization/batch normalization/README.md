@@ -44,7 +44,7 @@ $$\sigma _{statistic+1}^{2}=(1-momentum)\times \sigma _{statistic}^{2} + momentu
 
 ​		**这里要注意一下**，在pytorch中对当前批次feature进行bn处理时所使用的$\sigma _{now}^{2}   $是**总体标准差**，计算公式如下：
 
-​		$$\sigma _{now}^{2} = \frac{1}{m}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2} $$
+​		$$\sigma _{now}^{2} = \frac{1}{m}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2}$$
 
 
 
@@ -52,7 +52,7 @@ $$\sigma _{statistic+1}^{2}=(1-momentum)\times \sigma _{statistic}^{2} + momentu
 
 
 
-​		$$\sigma _{now}^{2} = \frac{1}{m-1}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2}   $$
+​		$$\sigma _{now}^{2} = \frac{1}{m-1}\sum_{i=1}^{m}(x_{i}-\mu _{now} )^{2}$$
 
 
 
