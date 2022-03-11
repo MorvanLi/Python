@@ -6,4 +6,26 @@
 
 
 
+
+
+***
+
+
+
 ![analyze_weights_featuremap](../../images/analyze_weights_featuremap_awf.png)
+
+
+
+
+
+
+
+
+
+**analyze_kerner_weight**
+
+***
+
+
+
+![analyze_kernel_weight](../../images/analyze_kernel_weight.png)
