@@ -17,3 +17,27 @@
 | &#9745; [RecptiveField](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/ReceptiveField) |                                                              |                                                              |
 | &#9744; [analyze_weights_featuremap]()                       | [Code]()                                                     |                                                              |
 
+
+
+
+
+
+
+## :zap:Dependence environment
+
+>matplotlib==3.3.4
+>pandas==1.1.5
+>Pillow==9.0.1
+>prettytable==2.1.0
+>torch==1.9.0
+>torchvision==0.10.0
+>tqdm==4.61.2
+
+
+
+**We recommend using pipreqs（pip list pipreqs）, a tool that has the advantage of automatically discovering which libraries are used by scanning the project directory and automatically generating a list of dependencies.**
+
+**How to use ?**
+
+- **Use pipreqs in the root directory of the project . /              （pipreqs ./ ）**
+
