@@ -66,3 +66,11 @@
 
 - **Use pipreqs in the root directory of the project . /              （pipreqs ./ ）**
 
+
+
+
+
+## :zap:Problems
+
+1. **If the formulas in the MD file are not displayed correctly, please download the plugin MathJax 3 Plugin for Github.**
+
