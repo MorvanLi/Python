@@ -26,12 +26,20 @@
 ## :zap:Dependence environment
 
 >matplotlib==3.3.4
+
 >pandas==1.1.5
+
 >Pillow==9.0.1
+
 >prettytable==2.1.0
+
 >torch==1.9.0
+
 >torchvision==0.10.0
+
 >tqdm==4.61.2
+
+***
 
 
 
