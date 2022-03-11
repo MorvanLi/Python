@@ -15,11 +15,27 @@
 | &#9745; [custom_dataset](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/custom_dataset) | [Code](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/custom_dataset) |                                                              |
 | &#9745; [ConfusionMatrix](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/ConfusionMatrix) | [Code](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/ConfusionMatrix) |                                                              |
 | &#9745; [RecptiveField](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/ReceptiveField) |                                                              |                                                              |
-| &#9744; [analyze_weights_featuremap]()                       | [Code]()                                                     |                                                              |
+| &#9745; [analyze_weights_featuremap](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/analyze_weights_featuremap) | [Code](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/analyze_weights_featuremap)                                                     |                                                              |
 
 
 
 
+
+
+
+
+
+##  2、Image Segmentation
+
+
+
+
+
+##　3、Image Fusion
+
+
+
+****
 
 
 
