@@ -130,4 +130,12 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    #
+    x = torch.rand((1, 2, 3))
+    print(x)
+    y = torch.rand((1, 2, 3))
+
+
+    z = torch.stack((x, y), dim=2)
+    print(z)
+    print(z.shape)
