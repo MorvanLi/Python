@@ -2,11 +2,11 @@
 
 ## pytorch中stack（）函数和cat（）函数的区别
 
+参考连接：[stack和cat区别](https://github.com/MorvanLi/Python/blob/main/summary_detail/pytorch%E4%B8%ADstack%EF%BC%88%EF%BC%89%E5%87%BD%E6%95%B0%E5%92%8Ccat%EF%BC%88%EF%BC%89%E5%87%BD%E6%95%B0%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 
+## pytorch中self.modules() 和 self.children()的区别
 
-## pytorch系列8 --self.modules() 和 self.children()的区别
-
-参考连接：[]()
+参考连接：[self.modules和self.children区别](https://github.com/MorvanLi/Python/blob/main/summary_detail/self.modules()%20%E5%92%8C%20self.children()%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 
 ## Tensorflow2.1 GPU安装与Pytorch1.3 GPU安装
 

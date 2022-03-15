@@ -93,7 +93,7 @@ class Net(nn.Module):
 
 1. **self.children()只包括网络模块的第一代儿子模块，而self.modules()包含网络模块的自己本身和所有后代模块。**
 2. **self.modules()采用深度优先遍历的方式，存储了AlexNet的所有模块，包括AlexNet itself, AlexNet's children, children of AlexNet's children。**
-3. **self.named_children()和self.named_modules()只是将网络层的名字显示处理**
+3. **self.named_children()和self.named_modules()只是将网络层的名字显示出来**
 
 
 
