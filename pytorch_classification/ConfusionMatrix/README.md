@@ -12,7 +12,7 @@
 
 $Recall=\frac{TP}{TP + FN} $
 
-$Specificity=\frac{TN}{FP + TN} $
+$Specificity=\frac{TF}{FP + TF} $
 
 
 
