@@ -66,4 +66,4 @@ print(next(myiterator))
 >>>1
 ```
 
-[参考链接]([1.11 Python 中的可迭代对象、迭代器与生成器 — 可乐python说 1.0.0 文档 (kelepython.readthedocs.io)](https://kelepython.readthedocs.io/zh/latest/c01/c01_11.html))
+[参考链接](https://kelepython.readthedocs.io/zh/latest/c01/c01_11.html)
