@@ -1,12 +1,10 @@
 ## Receptive field
 
-**The convolutional neural network, a decision of an element in the output layer corresponds to the input layer of the size of the region, known as receptive field (receptive field). Popular explanation is that the output feature on the map of a unit corresponding to the input layer on the size of the region.**
-
 **在卷积神经网络中，决定某一层输出结果所对应的输入层的区域大小，被称作为感受野（receptive field）。通俗的解释是，输出feature map上的一个单元对应输入层的区域大小。**
 
 
 
-## Receptive field  formula
+### Receptive field  formula
 
 $ F(i)=(F(i+1) -1 )*stride + Ksize $
 
@@ -25,7 +23,7 @@ $ F(i)=(F(i+1) -1 )*stride + Ksize $
 
 ***
 
-![ReceptiveField_rf](../../images/ReceptiveField_rf.png)
+![receptiveField_01](../../images/receptiveField_01.png)
 
 
 
