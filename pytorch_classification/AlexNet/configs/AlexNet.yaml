@@ -1,0 +1,17 @@
+Network:
+  name: "AlexNet"
+
+DATASET:
+  data_dir: "/home/synsense-1/Downloads/others/flower_data/"
+
+TRAIN:
+  num_classes: 5
+  weight_decay: 0.0001
+  bs: 32
+  epochs: 30
+  lr: 0.0001
+  opt: Adam
+  loss_func: [ "torch.nn.CrossEntropyLoss()" ]
+  weight_save_path: "./weights/"
+  log_dir: "./logs/"
+  num_workers: 8
