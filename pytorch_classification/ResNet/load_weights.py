@@ -14,8 +14,10 @@ def main():
 
     # option1
     net = resnet34()
+    # print(net)
     net.load_state_dict(torch.load(model_weight_path, map_location=device))
     # change fc layer structure
+    # print(net.layer4[0].conv1.stride)
     in_channel = net.fc.in_features
     net.fc = nn.Linear(in_channel, 5)
 
