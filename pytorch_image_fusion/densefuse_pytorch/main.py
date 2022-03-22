@@ -44,11 +44,12 @@ _tensor = transforms.ToTensor()
 
 model = DenseFuseNet().to(device)
 model.load_state_dict(torch.load('./train_result/model_weight.pkl')['weight'])
-for i in range(13):
-    img1 = Image.open(f'./images/c{i+1}_1.tif')
+files = os.listdir("./images")
+for i in range(1, 2):
+    img1 = Image.open(f'./images/balloon{i}.bmp')
     img1 = _tensor(img1).unsqueeze(0)
 
-    img2 = Image.open(f'./images/c{i+1}_2.tif')
+    img2 = Image.open(f'./images/balloon{i+1}.bmp')
     img2 = _tensor(img2).unsqueeze(0)
     features1 = model.encoder(img1.to(device))
     features2 = model.encoder(img2.to(device))
@@ -62,8 +63,8 @@ for i in range(13):
         # [C, H, W] -> [H, W, C]
         im1 = np.transpose(im1, [1, 2, 0])
         im2 = np.transpose(im2, [1, 2, 0])
-        savemat(f'./matfiles/data{i+1}_1.mat', {'img': im1})
-        savemat(f'./matfiles/data{i+1}_2.mat', {'img': im2})
+        savemat(f'./matfiles/data{i}_1.mat', {'img': im1})
+        savemat(f'./matfiles/data{i}_2.mat', {'img': im2})
         # # show top 12 feature maps
         # plt.figure(figsize=(25, 25))
         # for i in range(64):
