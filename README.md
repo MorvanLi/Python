@@ -20,6 +20,7 @@
 | &#9745; [batch normalization](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/normalization/)  &#9745; [layer normalization](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/normalization/layernormalization)  &#9745; [group normalization](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/normalization/groupnormalization) | [Code](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/normalization) |                                                              |      |
 | &#9745; [fvcore](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/fvcore) | [Code](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/fvcore) |                                                              |      |
 | &#9745; [tensorboard](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/tensorboard) |                                                              |                                                              |      |
+| &#9745; [cosine learning rate](https://github.com/MorvanLi/Python/tree/main/pytorch_classification/cosineLearningRate) |                                                              |                                                              |      |
 | &#9745; [Transformer]()                                      |                                                              |                                                              |      |
 
 
