@@ -35,11 +35,15 @@ device = 'cuda'
 _tensor = transforms.ToTensor()
 model = DenseFuseNet().to(device)
 model.load_state_dict(torch.load('./train_result/model_weight.pkl')['weight'])
-
-for i in range(0, 1):
-    variables = io.loadmat(f'./fusion/fusion{i+1}.mat')
-    result = model.decoder(_tensor(variables['y']).unsqueeze(0).to(device))
-    result = result.squeeze(0)
-    img_fusion = transforms.ToPILImage()(result)
-    img_fusion.save(f'./result/{i+1}.png')
-    # img_fusion.show()
+variables = io.loadmat(f'./fusion/fusion{1}.mat')
+x = _tensor(variables['y']).unsqueeze(0).to(device)
+x = torch.sum(x, dim=1)
+print(x)
+print("sss")
+# for i in range(0, 1):
+#     variables = io.loadmat(f'./fusion/fusion{i+1}.mat')
+#     result = model.decoder(_tensor(variables['y']).unsqueeze(0).to(device))
+#     result = result.squeeze(0)
+#     img_fusion = transforms.ToPILImage()(result)
+#     img_fusion.save(f'./result/{i+1}.png')
+#     # img_fusion.show()
