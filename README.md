@@ -25,17 +25,33 @@
 
 
 
+## 2、Machine Learning
+
+| machine learning            |      |      |
+| --------------------------- | ---- | ---- |
+| &#9745;[newton]()           |      |      |
+| &#9745;[SGD/AdaGrad/Adam]() |      |      |
+|                             |      |      |
+
+
+
+## 3、Numpy
+
+|                                                              | PDF                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| &#9745;[numpyBroadcast](https://github.com/MorvanLi/Python/blob/main/numpy/numpyBroadcast.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/numpy/numpyBroadcast.pdf) |
+|                                                              |                                                              |
+|                                                              |                                                              |
+
+
+
+##  4、Image Segmentation
 
 
 
 
-##  2、Image Segmentation
 
-
-
-
-
-## 3、Image Fusion
+## 5、Image Fusion
 
 
 
