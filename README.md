@@ -27,21 +27,19 @@
 
 ## 2、Machine Learning
 
-| machine learning            |      |      |
-| --------------------------- | ---- | ---- |
-| &#9745;[newton]()           |      |      |
-| &#9745;[SGD/AdaGrad/Adam]() |      |      |
-|                             |      |      |
+| machine learning                                             | PDF                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| &#9745;[newton](https://github.com/MorvanLi/Python/blob/main/machineLearning/newton.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/newton.pdf) |
+| &#9745;[SGD/AdaGrad/Adam](https://github.com/MorvanLi/Python/blob/main/machineLearning/optimizer.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/optimizer.pdf) |
+|                                                              |                                                              |
 
 
 
 ## 3、Numpy
 
-|                                                              | PDF                                                          |
+| numpy                                                        | PDF                                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | &#9745;[numpyBroadcast](https://github.com/MorvanLi/Python/blob/main/numpy/numpyBroadcast.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/numpy/numpyBroadcast.pdf) |
-|                                                              |                                                              |
-|                                                              |                                                              |
 
 
 
