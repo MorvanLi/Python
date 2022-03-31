@@ -31,6 +31,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | &#9745;[newton](https://github.com/MorvanLi/Python/blob/main/machineLearning/newton.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/newton.pdf) |
 | &#9745;[SGD/AdaGrad/Adam](https://github.com/MorvanLi/Python/blob/main/machineLearning/optimizer.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/optimizer.pdf) |
+| &#9745;[PCA]()                                               | [PCA]()                                                      |
 | &#9745;[Singular value decompisition](https://github.com/MorvanLi/Python/blob/main/machineLearning/svd.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/svd.pdf) |
 | &#9745;[Linear Algebra](https://zhuanlan.zhihu.com/p/457858293) | [Notes](https://zhuanlan.zhihu.com/p/457858293)              |
 
