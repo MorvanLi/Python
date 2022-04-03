@@ -34,6 +34,7 @@
 | &#9745;[PCA](https://github.com/MorvanLi/Python/blob/main/machineLearning/pca.ipynb) | [PCA](https://github.com/MorvanLi/Python/blob/main/machineLearning/pca.pdf) |
 | &#9745;[Singular value decompisition](https://github.com/MorvanLi/Python/blob/main/machineLearning/svd.pdf) | [PDF](https://github.com/MorvanLi/Python/blob/main/machineLearning/svd.pdf) |
 | &#9745;[Linear Algebra](https://zhuanlan.zhihu.com/p/457858293) | [Notes](https://zhuanlan.zhihu.com/p/457858293)              |
+| &#9744;[Matrix derivative]() |                                                              |
 
 
 
